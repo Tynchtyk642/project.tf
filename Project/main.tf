@@ -30,6 +30,6 @@ module "project" {
   instance_type = "t2.micro"
 }
 
-# output "public_ip" {
-#   value = module.project.EIP
-# }
+output "public_ip" {
+  value = module.project.EIP
+}
